@@ -335,6 +335,8 @@ def main():
             processraw(caption, instream, outstream)
         elif language == "rawcpp":
             processraw(caption, instream, outstream, 'C++')
+        elif language == "rawjava":
+            processraw(caption, instream, outstream, 'Java')
         elif language == "sh":
             processraw(caption, instream, outstream, 'bash')
         elif language == "py":
